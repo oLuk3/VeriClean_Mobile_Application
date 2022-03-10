@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/role_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_title_layout_height">
+
+        <TextView
+            android:layout_width="@dimen/back_arrow_size"
+            android:layout_height="@dimen/back_arrow_size"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/back_arrow_left"
+            android:layout_marginLeft="@dimen/back_arrow_left"
+            android:layout_marginBottom="@dimen/setting_title_content_margin"
+            android:background="@drawable/btn_back_arrow"
+            android:backgroundTint="#000000"
+            android:onClick="onBackArrowPressed"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/role_content_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="237dp">
+
+        <TextView
+            android:id="@+id/role_choose_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_role_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_large" />
+
+        <RelativeLayout
+            android:id="@+id/broadcaster_layout"
+            style="@style/select_role_block"
+            android:layout_width="188dp"
+            android:layout_height="93dp"
+            android:layout_below="@id/role_choose_title"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-28dp"
+            android:background="@drawable/ovalbutton"
+            android:onClick="onJoinAsBroadcaster">
+
+            <RelativeLayout style="@style/select_role_block_content">
+
+                <TextView
+                    android:id="@+id/select_role_arrow_broadcaster"
+                    style="@style/select_role_block_arrow"
+                    android:backgroundTint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/select_role_title_broadcaster"
+                    style="@style/select_role_block_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginEnd="-27dp"
+                    android:layout_marginRight="-27dp"
+                    android:layout_toStartOf="@id/select_role_arrow_broadcaster"
+                    android:layout_toLeftOf="@id/select_role_arrow_broadcaster"
+                    android:text="Start Live Broadcast"
+                    android:textColor="#FDFDFD" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/info_margin_bottom"
+        android:text="@string/powered_by_agora"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_small" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        app:srcCompat="@drawable/ovalbutton" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="37dp"
+        android:layout_height="47dp"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/profile_white" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="4dp"
+         />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/imageView7"
+        android:text="Name:"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/firstNameR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/textView18"
+        android:text="Luke"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/lastNameR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="22dp"
+        android:text="Ocampo"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

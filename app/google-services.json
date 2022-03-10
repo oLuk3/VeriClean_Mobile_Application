@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1011917799256",
+    "firebase_url": "https://vericlean-fd739-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "vericlean-fd739",
+    "storage_bucket": "vericlean-fd739.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011917799256:android:776f195093fedd059c6f2d",
+        "android_client_info": {
+          "package_name": "com.example.vericlean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011917799256-kk4cr5oppubbo387r8mm3uv8q1vkvvf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgeWj0_1aWDjgDUDzayrOJRszN7559VRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011917799256-kk4cr5oppubbo387r8mm3uv8q1vkvvf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011917799256:android:c4c3b6901b205e319c6f2d",
+        "android_client_info": {
+          "package_name": "io.agora.openlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011917799256-kk4cr5oppubbo387r8mm3uv8q1vkvvf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgeWj0_1aWDjgDUDzayrOJRszN7559VRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011917799256-kk4cr5oppubbo387r8mm3uv8q1vkvvf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
